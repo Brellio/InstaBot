@@ -13,9 +13,9 @@ sleep(5)
 
 #LOGS IN TO INSTA ACCOUNT
 username = webdriver.find_element_by_name('username')
-username.send_keys('abcboitest')
+username.send_keys('USERNAME')
 password = webdriver.find_element_by_name('password')
-password.send_keys('tester123')
+password.send_keys('PASSWORD')
 
 button_login = webdriver.find_element_by_css_selector('#react-root > section > main > div > article > div > div:nth-child(1) > div > form > div:nth-child(3) > button')
 button_login.click()
